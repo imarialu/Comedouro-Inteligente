@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+body{
+    background-image: linear-gradient(to left, #912919 50%, #f0f0f0 50%);
+}
+
+#topo{
+    height: 20vh;
+    width: 100%;
+    background-color: #912919;
+    border-bottom-left-radius: 50px;
+}
+
+#topo img{
+    height: 270px;
+    width: 270px;
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+}
+
+#meio{
+    height: 80vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    border-top-right-radius: 50px;
+}
+
+#ativar{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #912919;
+    color: #f0f0f0;
+    font-size: medium;
+    font-weight: bold;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 30%;
+}
+
+#caixa{
+    width: 320px;
+    height: 330px;
+    border-radius: 20px;
+    border: 2px solid #807868;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 65%;
+    text-align: center;
+}
+
+h1{
+    font-size: larger;
+    color: #912919;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label{
+    
+    color: #912919;
+    display: table;
+    padding-bottom: 3px;
+    padding-top: 20px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    font-weight: bold;
+}
+
+input{
+    width: 90px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #807868;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.agendar{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    display: block;
+    width: 90px;
+    height: 30px;
+    background-color: #912919;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: x-small;
+    margin-top: 20px;
+}
+

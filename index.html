@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <title>Comedouro Inteligente</title>
+</head>
+<body>
+    <header>
+        <div id="topo">
+            <img src="./logo_branca_s.png" alt="###">
+        </div>
+    </header>
+
+    <section>
+        <div id="meio">
+            <button id="ativar">ATIVAR</button>
+
+            <div id="caixa">
+                <h1>Agendar ativação</h1>
+
+                <label for="primeiro">Primeiro horário</label>
+                <input type="number" id="primeiro" placeholder="horas">
+                <input type="number" placeholder="minutos">
+
+                <label for="segundo">Segundo horário</label>
+                <input type="number" id="segundo" placeholder="horas ">
+                <input type="number" placeholder="minutos">
+
+                <label for="Terceiro">Terceiro horário</label>
+                <input type="number" id="terceiro" placeholder="horas">
+                <input type="number" placeholder="minutos">
+
+                <button onclick="enviar()" class="agendar">AGENDAR</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
